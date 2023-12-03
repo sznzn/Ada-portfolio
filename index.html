@@ -8,10 +8,11 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Proza+Libre&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/692289e96c.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <header>
-        <div class="logo">Ada Lovelace</div>
+        <div class="logo headfont">Ada Lovelace</div>
         <nav>
             <div>About Me</div>
             <div>Projects</div>
@@ -22,24 +23,60 @@
     <main>
         <section>
             <article>
-                <h2>About Me</h2>
+                <h2 class="headfont">About Me</h2>
+                <p>Hi! I'm Ada, Countess of Lovelace and am an English mathematician and writer, chiefly known for my work on Charles Babbage's proposed mechanical general-purpose computer, the Analytical Engine.</p>
+                <p>I am one of the first to recognize that machines have applications beyond pure calculation, and to have published the first algorithm intended to be carried out by such a machine.</p>
+                <p>In my free time I like to read about scientific developments, mathematics, and computational mathematics. I also like to take my chances of winning big.</p>
+                <p>Fun fact! I've been programing for <span><span id="seconds"></span> seconds!</p>
             </article>
-            <div class="image"></div>
+            <div class="image"><img src="./img/Ada_lovelace.jpg" alt="Ada Lovelace"/></div>
         </section>
         <section>
-            <h2>Projects</h2>
-            <div><h3> -> The first computer program</h3></div>
-            <div><h3> -> The Analytical Engine</h3></div>
-            <div><h3> -> The Ada programming language</h3></div>
+            <h2 class="headfont">Projects</h2>
+            <div>
+                <h3> -> The first computer program</h3>
+                <div>
+                    <img src="./img/Diagram_for_the_computation_of_Bernoulli_numbers.jpg" alt="first computer program">
+                    <p>The world's first computer program for computing Bernoulli numbers.</p>
+                </div>
+            </div>
+            <div>
+                <h3> -> The Analytical Engine</h3>
+                <div><img src="./img/analyticalmachine_babbage_london.webp" alt="The Analytical Engine">
+                <p>I helped Charles Babbage on topics ranging from math to computation that helped the development of the Analytical Engine.</p>
+            </div>
+            </div>
+            <div>
+                <h3> -> The Ada programming language</h3>
+                <div><img src="./img/220px-Ada_Mascot_with_slogan.svg.png" alt="The Ada programming language">
+                <p>My work inspired the United States Department of Defense to name their new programming language after me.</p>
+                </div>
+            </div>
         </section>
         <section>
-            <h2>Skills</h2>
-            <div class="icones"></div>
+            <h2 class="headfont">Skills</h2>
+            <div class="icones">
+                <div><i class="fa-brands fa-html5"></i></div>
+                <div><i class="fa-brands fa-css3-alt"></i></div>
+                <div><i class="fa-brands fa-js"></i></div>
+                <div><i class="fa-brands fa-react"></i></div>
+                <div><i class="fa-brands fa-aws"></i></div>
+                <div><i class="fa-brands fa-sketch"></i></div>
+                <div><i class="fa-brands fa-figma"></i></div>
+                <div><i class="fa-brands fa-git"></i></div>
+                <div><i class="fa-brands fa-chrom"></i></div>
+                <div><i class="fa-solid fa-terminal"></i></div>
+                <div><i class="fa-solid fa-universal-access"></i></div>
+                <div><i class="fa-brands fa-npm"></i></div>
+                <div><i class="fa-brands fa-node"></i></div>
+                <div><i class="fa-brands fa-github"></i></div>
+            </div>
         </section>
     </main>
     <footer>
         <p>Made with ❤️ in London</p>
     </footer>
+    <script src="script.js"></script>
     
 </body>
 </html>
