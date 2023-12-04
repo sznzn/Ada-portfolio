@@ -14,16 +14,16 @@
     <header>
         <div class="logo headfont">Ada Lovelace</div>
         <nav>
-            <div>About Me</div>
-            <div>Projects</div>
-            <div>Skills</div>
-            <div>Contact</div>
+            <div><a href="#aboutme">About Me</a></div>
+            <div><a href="#projects">Projects</a></div>
+            <div><a href="#skills">Skills</a></div>
+            <div><a href="#contact">Contact</a></div>
         </nav>
     </header>
     <main>
-        <section>
+        <section class="section-article">
             <article>
-                <h2 class="headfont">About Me</h2>
+                <h2 class="headfont" id="aboutme">About Me</h2>
                 <p>Hi! I'm Ada, Countess of Lovelace and am an English mathematician and writer, chiefly known for my work on Charles Babbage's proposed mechanical general-purpose computer, the Analytical Engine.</p>
                 <p>I am one of the first to recognize that machines have applications beyond pure calculation, and to have published the first algorithm intended to be carried out by such a machine.</p>
                 <p>In my free time I like to read about scientific developments, mathematics, and computational mathematics. I also like to take my chances of winning big.</p>
@@ -32,29 +32,29 @@
             <div class="image"><img src="./img/Ada_lovelace.jpg" alt="Ada Lovelace"/></div>
         </section>
         <section>
-            <h2 class="headfont">Projects</h2>
+            <h2 class="headfont" id="projects">Projects</h2>
             <div>
-                <h3> -> The first computer program</h3>
-                <div>
+                <h3 onclick="clickme1()"> -> The first computer program</h3>
+                <div id="projet1">
                     <img src="./img/Diagram_for_the_computation_of_Bernoulli_numbers.jpg" alt="first computer program">
                     <p>The world's first computer program for computing Bernoulli numbers.</p>
                 </div>
             </div>
             <div>
-                <h3> -> The Analytical Engine</h3>
-                <div><img src="./img/analyticalmachine_babbage_london.webp" alt="The Analytical Engine">
+                <h3 onclick="clickme2()"> -> The Analytical Engine</h3>
+                <div  id="projet2"><img src="./img/analyticalmachine_babbage_london.webp" alt="The Analytical Engine">
                 <p>I helped Charles Babbage on topics ranging from math to computation that helped the development of the Analytical Engine.</p>
             </div>
             </div>
             <div>
-                <h3> -> The Ada programming language</h3>
-                <div><img src="./img/220px-Ada_Mascot_with_slogan.svg.png" alt="The Ada programming language">
+                <h3 onclick="clickme3()"> -> The Ada programming language</h3>
+                <div  id="projet3"><img src="./img/220px-Ada_Mascot_with_slogan.svg.png" alt="The Ada programming language">
                 <p>My work inspired the United States Department of Defense to name their new programming language after me.</p>
                 </div>
             </div>
         </section>
         <section>
-            <h2 class="headfont">Skills</h2>
+            <h2 class="headfont" id="skills">Skills</h2>
             <div class="icones">
                 <div><i class="fa-brands fa-html5"></i></div>
                 <div><i class="fa-brands fa-css3-alt"></i></div>

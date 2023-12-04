@@ -9,3 +9,32 @@
 i{
     font-size: 2.2rem;
 }
+body{
+    width: 80%;
+    margin: auto;
+}
+header{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+nav{
+    display: flex;
+    flex-wrap: wrap;
+    width: 20%;
+    justify-content: space-between;
+    /* border: 1px solid black; */
+}
+nav a{
+    text-decoration: none;
+    color: black;
+    transition: font-weight 700ms ease-in-out;
+}
+nav a:hover{
+    color: darkgoldenrod;
+    transition: color 700ms ease-in-out;
+}
+.section-article{
+    display: flex;
+    justify-content: space-between;
+}
